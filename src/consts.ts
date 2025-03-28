@@ -1,23 +1,20 @@
 import type { IconMap, SocialLink, Site } from '@/types'
 
 export const SITE: Site = {
-  title: 'astro-erudite',
+  title: 'brucy',
   locale: 'en-US',
   description:
-    'astro-erudite is a opinionated, unstyled blogging template—built with Astro, Tailwind, and shadcn/ui.',
-  href: 'https://astro-erudite.vercel.app',
+    'Crazy art, based dev and strong community! 
+.',
+  href: 'https://brucyonsol.xyz',
   featuredPostCount: 2,
   postsPerPage: 3,
 }
 
 export const NAV_LINKS: SocialLink[] = [
   {
-    href: '/blog',
-    label: 'blog',
-  },
-  {
-    href: '/authors',
-    label: 'authors',
+    href: '/info',
+    label: 'info',
   },
   {
     href: '/about',
@@ -27,28 +24,22 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: 'https://github.com/jktrn',
-    label: 'GitHub',
+    href: 'https://t.me/brucyonsol',
+    label: 'Telegram',
   },
   {
-    href: 'https://twitter.com/enscry',
+    href: 'https://x.com/brucyonsol',
     label: 'Twitter',
   },
   {
-    href: 'mailto:jason@enscribe.dev',
-    label: 'Email',
-  },
-  {
-    href: '/rss.xml',
-    label: 'RSS',
+    href: 'https://dexscreener.com/solana/9e56hnzqwx6lwdpcxyyrgelmgtedg8svseub8qpttqpb',
+    label: 'Dexscreener',
   },
 ]
 
 export const ICON_MAP: IconMap = {
   Website: 'lucide:globe',
-  GitHub: 'lucide:github',
-  LinkedIn: 'lucide:linkedin',
+  Telegram: 'lucide:telegram',
   Twitter: 'lucide:twitter',
-  Email: 'lucide:mail',
-  RSS: 'lucide:rss',
+  Dexscreener: 'lucide:dexscreener',
 }
